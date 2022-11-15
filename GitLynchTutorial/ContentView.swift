@@ -29,6 +29,10 @@ struct ContentView: View {
                 ModalView()
                     .presentationDetents([.fraction(0.25)])
             }
+            
+            NavigationLink(destination: SecondView()) {
+                Text("Go To Second View")
+            }
         }
         .padding()
         .navigationBarTitle("XCode and Git")
