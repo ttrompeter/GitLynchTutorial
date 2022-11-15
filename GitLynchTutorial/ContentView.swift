@@ -24,6 +24,7 @@ struct ContentView: View {
                 isPresented = true
             }
             .buttonStyle(.bordered)
+            .foregroundColor(.indigo)
             .sheet(isPresented: $isPresented) {
                 ModalView()
                     .presentationDetents([.fraction(0.25)])
