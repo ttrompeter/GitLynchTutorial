@@ -25,11 +25,12 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .sheet(isPresented: $isPresented) {
-                Text("This is the modal screen")
+                ModalView()
                     .presentationDetents([.fraction(0.25)])
             }
         }
         .padding()
+        .navigationBarTitle("XCode and Git")
     }
     }
 }

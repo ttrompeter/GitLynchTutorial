@@ -11,6 +11,7 @@
 		E31E0B4F2923FFBD004D39D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E0B4E2923FFBD004D39D4 /* ContentView.swift */; };
 		E31E0B512923FFBE004D39D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E0B502923FFBE004D39D4 /* Assets.xcassets */; };
 		E31E0B542923FFBE004D39D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E0B532923FFBE004D39D4 /* Preview Assets.xcassets */; };
+		E31E0B5B292403D2004D39D4 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E0B5A292403D2004D39D4 /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E31E0B4E2923FFBD004D39D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E31E0B502923FFBE004D39D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31E0B532923FFBE004D39D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E31E0B5A292403D2004D39D4 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E31E0B4C2923FFBD004D39D4 /* GitLynchTutorialApp.swift */,
 				E31E0B4E2923FFBD004D39D4 /* ContentView.swift */,
+				E31E0B5A292403D2004D39D4 /* ModalView.swift */,
 				E31E0B502923FFBE004D39D4 /* Assets.xcassets */,
 				E31E0B522923FFBE004D39D4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31E0B5B292403D2004D39D4 /* ModalView.swift in Sources */,
 				E31E0B4F2923FFBD004D39D4 /* ContentView.swift in Sources */,
 				E31E0B4D2923FFBD004D39D4 /* GitLynchTutorialApp.swift in Sources */,
 			);
