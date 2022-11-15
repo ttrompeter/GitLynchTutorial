@@ -33,6 +33,7 @@ struct ContentView: View {
             NavigationLink(destination: SecondView()) {
                 Text("Go To Second View")
             }
+            .foregroundColor(.green)
         }
         .padding()
         .navigationBarTitle("XCode and Git")
